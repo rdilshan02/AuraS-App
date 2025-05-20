@@ -1,14 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:skincare_app/AppointmentScreen.dart';
-import 'package:skincare_app/AIAnalysisScreen.dart';
-import 'package:skincare_app/ChatBotScreen.dart';
-import 'package:skincare_app/DoctorChannelingScreen.dart';
+import 'package:flutter_application_1/AIAnalysisScreen.dart';
+import 'package:flutter_application_1/AppointmentScreen.dart';
+import 'package:flutter_application_1/ChatBotScreen.dart';
+import 'package:flutter_application_1/DoctorChannelingScreen.dart';
+import 'package:flutter_application_1/shared_widgets.dart';
+// import 'package:skincare_app/AppointmentScreen.dart';
+// import 'package:skincare_app/AIAnalysisScreen.dart';
+// import 'package:skincare_app/ChatBotScreen.dart';
+// import 'package:skincare_app/DoctorChannelingScreen.dart';
 // import 'package:skincare_app/AIAnalysisScreen.dart';
 // import 'package:skincare_app/BlogScreen.dart';
 // import 'package:skincare_app/ChatBotScreen.dart';
 // import 'package:skincare_app/DoctorChannelingScreen';
 // import 'package:skincare_app/FAQScreen.dart';
-import 'package:skincare_app/shared_widgets.dart';
+// import 'package:skincare_app/shared_widgets.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

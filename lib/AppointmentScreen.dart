@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/shared_widgets.dart';
 // import 'package:skincare_app/shared_widgets.dart';
 
-class ChatBotScreen extends StatelessWidget {
-  const ChatBotScreen({super.key});
+class AppointmentScreen extends StatelessWidget {
+  const AppointmentScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,13 +13,13 @@ class ChatBotScreen extends StatelessWidget {
         child: Column(
           children: [
             const CustomHeader(),
-            const CustomNavigationBar(activeRoute: 'Chat Bot'),
+            const CustomNavigationBar(activeRoute: 'Doctor Channelling'),
             Expanded(
               child: SingleChildScrollView(
                 child: Column(
                   children: [
                     // Add your blog content here
-                    const Center(child: Text('Chat Bot Screen Content')),
+                    const Center(child: Text('Appointment Screen Content')),
                     // Add more blog components below
                   ],
                 ),

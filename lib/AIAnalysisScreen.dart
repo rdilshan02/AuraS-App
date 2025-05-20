@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:skincare_app/shared_widgets.dart';
+import 'package:flutter_application_1/shared_widgets.dart';
+// import 'package:skincare_app/shared_widgets.dart';
 
 class AIAnalysisScreen extends StatelessWidget {
   const AIAnalysisScreen({super.key});

@@ -1,11 +1,17 @@
 // shared_widgets.dart
 import 'package:flutter/material.dart';
-import 'package:skincare_app/AIAnalysisScreen.dart';
-import 'package:skincare_app/BlogScreen.dart';
-import 'package:skincare_app/ChatBotScreen.dart';
-import 'package:skincare_app/DoctorChannelingScreen.dart';
-import 'package:skincare_app/FAQScreen.dart';
-import 'package:skincare_app/home_page.dart';
+import 'package:flutter_application_1/AIAnalysisScreen.dart';
+import 'package:flutter_application_1/BlogScreen.dart';
+import 'package:flutter_application_1/ChatBotScreen.dart';
+import 'package:flutter_application_1/DoctorChannelingScreen.dart';
+import 'package:flutter_application_1/FAQScreen.dart';
+import 'package:flutter_application_1/home_page.dart';
+// import 'package:skincare_app/AIAnalysisScreen.dart';
+// import 'package:skincare_app/BlogScreen.dart';
+// import 'package:skincare_app/ChatBotScreen.dart';
+// import 'package:skincare_app/DoctorChannelingScreen.dart';
+// import 'package:skincare_app/FAQScreen.dart';
+// import 'package:skincare_app/home_page.dart';
 
 class CustomHeader extends StatelessWidget {
   const CustomHeader({super.key});
