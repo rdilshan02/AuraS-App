@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'app_startup.dart';
 import 'login.dart';
+import 'FAQ.dart';
 // import 'welcome.dart'; // Make sure this import points to the correct file containing WelcomeScreen
 
 void main() {
@@ -83,12 +84,14 @@ class AuraSApp extends StatelessWidget {
           ),
         ),
       ),
+
       initialRoute: '/startup',
       routes: {
         '/startup': (context) => const WelcomeScreen(),
         '/welcome': (context) => const WelcomeScreen(),
         '/login': (context) => const LoginScreen(),
       },
+      home: const FAQPage(),
     );
   }
 
@@ -109,5 +112,7 @@ class AuraSApp extends StatelessWidget {
     }
 
     return MaterialColor(color.value, swatch);
+
   }
+
 }
