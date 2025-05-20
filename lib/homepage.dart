@@ -3,7 +3,7 @@ import 'skin_analysis.dart';
 import 'blog.dart';
 import 'FAQ.dart';
 import 'Doctor_chanelling.dart';
-import 'chatbot.dart';
+// import 'chatbot.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
