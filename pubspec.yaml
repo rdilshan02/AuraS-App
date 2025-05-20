@@ -55,12 +55,18 @@ flutter:
     - assets/images/logo.png
     - assets/images/welcome_icon.png
     - assets/images/skin_analysis_back.png
-    - assets/images/image2.png
+    - assets/images/image1.png
     - assets/images/image2.png
     - assets/images/image3.png
     - assets/images/image4.png
     - assets/images/image5.png
     - assets/images/image6.png
+    - assets/images/image7.png
+    - assets/images/image8.png
+    - assets/images/image9.png
+    - assets/images/doc1.png
+    - assets/images/doc2.png
+    - assets/images/doc3.png
   
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
