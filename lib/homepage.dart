@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'chatbot.dart';
 import 'skin_analysis.dart';
 import 'blog.dart';
 import 'FAQ.dart';
@@ -140,7 +141,7 @@ class HomePage extends StatelessWidget {
               onTap:
                   () => Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const FAQScreen()),
+                    MaterialPageRoute(builder: (context) => const FAQPage()),
                   ),
             ),
             const SizedBox(width: 16),
